@@ -34,8 +34,7 @@
 
 <p align="center">
 [<a href="https://arxiv.org/pdf/2307.11760.pdf">Paper</a>]
-[<a href="https://techxplore.com/news/2023-08-exploring-effects-emotional-stimuli-large.html">Media coverage 1</a>]
-[<a href="https://webappia.com/investigating-the-impact-of-emotional-stimuli-on-language-models-emotionalai/?feed_id=13302&_unique_id=64cfac8201058">Media coverage 2</a>]
+[Media coverage <a href="https://techxplore.com/news/2023-08-exploring-effects-emotional-stimuli-large.html">1</a>,<a href="https://webappia.com/investigating-the-impact-of-emotional-stimuli-on-language-models-emotionalai/?feed_id=13302&_unique_id=64cfac8201058">2</a>,<a href="https://flowgpt.com/blog/emoGPT">3</a>,<a href="https://mp.weixin.qq.com/s/z-lg-yDibKoT_gO97HSK5Q">4</a>]
 </p>
 
 <details>
