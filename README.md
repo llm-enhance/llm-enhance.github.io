@@ -20,7 +20,7 @@
 <p align="center">
   Hao Chen<sup>1</sup>,
   Jindong Wang<sup>#2</sup>, 
-  Ankit Shah<su>2</sup>, 
+  Ankit Shah<sup>2</sup>, 
   Ran Tao<sup>1</sup>,  
   Hongxin Wei<sup>3</sup>, 
   Xing Xie<sup>2</sup>, 
@@ -47,7 +47,7 @@ Pre-training on large-scale datasets and then fine-tuning on downstream tasks ha
 </details>
 
 <p align="center">
-<img src="./imgs/noisymodel.png" style="width: 70%;"/>
+<img src="./imgs/noisymodel.jpg" style="width: 70%;"/>
 </p>
 
 - - -
