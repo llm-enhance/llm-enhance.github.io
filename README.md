@@ -7,13 +7,52 @@
 </div>
 <br>
 
-- [1. EmotionPrompt: Leveraging Psychology for Enhancement via Emotional Stimulus](#1-emotionprompt-leveraging-psychology-for-enhancement-via-emotional-stimulus)
-- [2. Exploring Vision-Language Models for Imbalanced Learning](#2-exploring-vision-language-models-for-imbalanced-learning)
-- [3. FedCLIP: Fast Generalization and Personalization for CLIP in Federated Learning](#3-fedclip-fast-generalization-and-personalization-for-clip-in-federated-learning)
+- [Understanding and Mitigating the Label Noise in Pre-training on Downstream Tasks](#understanding-and-mitigating-the-label-noise-in-pre-training-on-downstream-tasks)
+- [EmotionPrompt: Leveraging Psychology for Enhancement via Emotional Stimulus](#emotionprompt-leveraging-psychology-for-enhancement-via-emotional-stimulus)
+- [Exploring Vision-Language Models for Imbalanced Learning](#exploring-vision-language-models-for-imbalanced-learning)
+- [FedCLIP: Fast Generalization and Personalization for CLIP in Federated Learning](#fedclip-fast-generalization-and-personalization-for-clip-in-federated-learning)
+
 
 - - -
 
-## 1. EmotionPrompt: Leveraging Psychology for Enhancement via Emotional Stimulus
+## Understanding and Mitigating the Label Noise in Pre-training on Downstream Tasks
+ 
+<p align="center">
+  Hao Chen<sup>1</sup>,
+  Jindong Wang<sup>#2</sup>, 
+  Ankit Shah<su>2</sup>, 
+  Ran Tao<sup>1</sup>,  
+  Hongxin Wei<sup>3</sup>, 
+  Xing Xie<sup>2</sup>, 
+  Masashi Sugiyama<sup>4</sup>,
+  Bhiksha Raj<sup>1</sup>
+</p>  
+
+<p align="center">
+<sup>1</sup> Carnegie Mellon University,
+<sup>2</sup> Microsoft Research,
+<sup>3</sup> SusTech,
+<sup>4</sup> University of Tokyo
+<br>
+(#: Co-corresponding author)
+</p>
+
+<p align="center">
+[<a href="https://arxiv.org/pdf/2309.17002.pdf">Paper</a>]
+</p>
+
+<details>
+<summary>Abstract</summary>
+Pre-training on large-scale datasets and then fine-tuning on downstream tasks have become a standard practice in deep learning. However, pre-training data often contain label noise that may adversely affect the generalization of the model. This paper aims to understand the nature of noise in pre-training datasets and to mitigate its impact on downstream tasks. More specifically, through extensive experiments of supervised pre-training models on synthetic noisy ImageNet-1K and YFCC15M datasets, we demonstrate that while slight noise in pre-training can benefit in-domain (ID) transfer performance, where the training and testing data share the same distribution, it always deteriorates out-of-domain (OOD) performance, where training and testing data distribution are different. We empirically verify that the reason behind is noise in pre-training shapes the feature space differently. We then propose a lightweight black-box tuning method (NMTune) to affine the feature space to mitigate the malignant effect of noise and improve generalization on both ID and OOD tasks, considering one may not be able to fully fine-tune or even access the pre-trained models. We conduct practical experiments on popular vision and language models that are pre-trained on noisy data for evaluation of our approach. Our analysis and results show the importance of this interesting and novel research direction, which we term Noisy Model Learning.
+</details>
+
+<p align="center">
+<img src="./imgs/noisymodel.png" style="width: 70%;"/>
+</p>
+
+- - -
+
+## EmotionPrompt: Leveraging Psychology for Enhancement via Emotional Stimulus
  
 <p align="center">
   Cheng Li<sup>1</sup>,
@@ -48,7 +87,7 @@ Large language models (LLMs) have achieved significant performance in many field
 
 - - -
 
-## 2. Exploring Vision-Language Models for Imbalanced Learning
+## Exploring Vision-Language Models for Imbalanced Learning
 
 *This work accepted minor revision at **IJCV 2023**.*
 
@@ -90,7 +129,7 @@ Vision-Language models (VLMs) that use contrastive language-image pre-training h
 
 - - -
 
-## 3. FedCLIP: Fast Generalization and Personalization for CLIP in Federated Learning
+## FedCLIP: Fast Generalization and Personalization for CLIP in Federated Learning
 
 *This work is published at **IEEE Data Engineering Bulletin** 2023.*
 
