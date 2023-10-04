@@ -32,8 +32,7 @@
 <sup>1</sup> Carnegie Mellon University,
 <sup>2</sup> Microsoft Research,
 <sup>3</sup> SusTech,
-<sup>4</sup> University of Tokyo
-<br>
+<sup>4</sup> University of Tokyo<br>
 (#: Co-corresponding author)
 </p>
 
