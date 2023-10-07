@@ -16,6 +16,8 @@
 - - -
 
 ## Understanding and Mitigating the Label Noise in Pre-training on Downstream Tasks
+
+*Added on: 03/10/2023.*
  
 <p align="center">
   Hao Chen<sup>1</sup>,
