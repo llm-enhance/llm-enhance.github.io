@@ -8,7 +8,7 @@
 <br>
 
 - [Understanding and Mitigating the Label Noise in Pre-training on Downstream Tasks](#understanding-and-mitigating-the-label-noise-in-pre-training-on-downstream-tasks)
-- [EmotionPrompt: Leveraging Psychology for Enhancement via Emotional Stimulus](#emotionprompt-leveraging-psychology-for-enhancement-via-emotional-stimulus)
+- [Large langauge models understand and can be enhanced by emotional stimuli](#large-langauge-models-understand-and-can-be-enhanced-by-emotional-stimuli)
 - [Exploring Vision-Language Models for Imbalanced Learning](#exploring-vision-language-models-for-imbalanced-learning)
 - [FedCLIP: Fast Generalization and Personalization for CLIP in Federated Learning](#fedclip-fast-generalization-and-personalization-for-clip-in-federated-learning)
 
@@ -35,7 +35,7 @@
 <sup>2</sup> Microsoft Research,
 <sup>3</sup> SusTech,
 <sup>4</sup> University of Tokyo<br>
-(#: Co-corresponding author)
+(#: Corresponding author)
 </p>
 
 <p align="center">
@@ -53,23 +53,29 @@ Pre-training on large-scale datasets and then fine-tuning on downstream tasks ha
 
 - - -
 
-## EmotionPrompt: Leveraging Psychology for Enhancement via Emotional Stimulus
- 
+## Large langauge models understand and can be enhanced by emotional stimuli
+
+*Previously titled: EmotionPrompt: leveraging psychology for large language model enhancement*
+
 <p align="center">
   Cheng Li<sup>1</sup>,
   Jindong Wang<sup>#2</sup>, 
   Kaijie Zhu<sup>2</sup>, 
   Yixuan Zhang<sup>3</sup>,  
   Wenxin Hou<sup>2</sup>, 
-  Jianxun Lian<sup>2</sup>, 
+  Jianxun Lian<sup>2</sup>,
+  Fang Luo<sup>4</sup>,
+  Qiang Yang<sup>5</sup>,
   Xing Xie<sup>2</sup>
 </p>  
 
 <p align="center">
 <sup>1</sup> Institute of Software, CAS,
 <sup>2</sup> Microsoft,
-<sup>3</sup> College of William and Mary<br>
-(#: Co-corresponding author)
+<sup>3</sup> College of William and Mary,
+<sup>4</sup> Department of Psychology, Beijing Normal University,
+<sup>5</sup> Hong Kong University of Science and Technology<br>
+(#: Corresponding author)
 </p>
 
 <p align="center">
