@@ -8,6 +8,7 @@
 <br>
 
 - [Understanding and Mitigating the Label Noise in Pre-training on Downstream Tasks](#understanding-and-mitigating-the-label-noise-in-pre-training-on-downstream-tasks)
+- [ZooPFL: Exploring Black-box Foundation Models for Personalized Federated Learning](#zoopfl-exploring-black-box-foundation-models-for-personalized-federated-learning)
 - [Large langauge models understand and can be enhanced by emotional stimuli](#large-langauge-models-understand-and-can-be-enhanced-by-emotional-stimuli)
 - [Exploring Vision-Language Models for Imbalanced Learning](#exploring-vision-language-models-for-imbalanced-learning)
 - [FedCLIP: Fast Generalization and Personalization for CLIP in Federated Learning](#fedclip-fast-generalization-and-personalization-for-clip-in-federated-learning)
@@ -49,6 +50,48 @@ Pre-training on large-scale datasets and then fine-tuning on downstream tasks ha
 
 <p align="center">
 <img src="./imgs/noisymodel.jpg" style="width: 70%;"/>
+</p>
+
+- - -
+
+## ZooPFL: Exploring Black-box Foundation Models for Personalized Federated Learning
+
+*Added on: 03/10/2023.*
+ 
+<p align="center">
+  Wang Lu<sup>1</sup>,
+  Hao Yu<sup>1</sup>, 
+  Jindong Wang<sup>#2</sup>, 
+  Damien Teney<sup>3</sup>,  
+  Haohan Wang<sup>4</sup>, 
+  Yiqiang Chen<sup>5</sup>, 
+  Qiang Yang<sup>6</sup>,
+  Xing Xie<sup>2</sup>,
+  Xiangyang Ji<sup>1</sup>,
+</p>  
+
+<p align="center">
+<sup>1</sup> Tsinghua University,
+<sup>2</sup> Microsoft Research,
+<sup>3</sup> Idiap Research Institute,
+<sup>4</sup> UIUC,
+<sup>5</sup> Chinese Academy of Sciences,
+<sup>6</sup> HKUST,
+<br>
+(#: Corresponding author)
+</p>
+
+<p align="center">
+[<a href="https://arxiv.org/pdf/2310.05143.pdf">Paper</a>]
+</p>
+
+<details>
+<summary>Abstract</summary>
+When personalized federated learning (FL) meets large foundation models, new challenges arise from various limitations in resources. In addition to typical limitations such as data, computation, and communication costs, access to the models is also often limited. This paper endeavors to solve both the challenges of limited resources and personalization. i.e., distribution shifts between clients. To do so, we propose a method named ZOOPFL that uses Zeroth-Order Optimization for Personalized Federated Learning. ZOOPFL avoids direct interference with the foundation models and instead learns to adapt its inputs through zeroth-order optimization. In addition, we employ simple yet effective linear projections to remap its predictions for personalization. To reduce the computation costs and enhance personalization, we propose input surgery to incorporate an auto-encoder with low-dimensional and client-specific embeddings. We provide theoretical support for ZOOPFL to analyze its convergence. Extensive empirical experiments on computer vision and natural language processing tasks using popular foundation models demonstrate its effectiveness for FL on black-box foundation models.
+</details>
+
+<p align="center">
+<img src="./imgs/zoopfl.png" style="width: 70%;"/>
 </p>
 
 - - -
