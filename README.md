@@ -9,7 +9,7 @@
 
 - [Understanding and Mitigating the Label Noise in Pre-training on Downstream Tasks](#understanding-and-mitigating-the-label-noise-in-pre-training-on-downstream-tasks)
 - [ZooPFL: Exploring Black-box Foundation Models for Personalized Federated Learning](#zoopfl-exploring-black-box-foundation-models-for-personalized-federated-learning)
-- [Large langauge models understand and can be enhanced by emotional stimuli](#large-langauge-models-understand-and-can-be-enhanced-by-emotional-stimuli)
+- [EmotionPrompt: Large langauge models understand and can be enhanced by emotional stimuli](#emotionprompt-large-langauge-models-understand-and-can-be-enhanced-by-emotional-stimuli)
 - [Exploring Vision-Language Models for Imbalanced Learning](#exploring-vision-language-models-for-imbalanced-learning)
 - [FedCLIP: Fast Generalization and Personalization for CLIP in Federated Learning](#fedclip-fast-generalization-and-personalization-for-clip-in-federated-learning)
 
@@ -96,7 +96,7 @@ When personalized federated learning (FL) meets large foundation models, new cha
 
 - - -
 
-## Large langauge models understand and can be enhanced by emotional stimuli
+## EmotionPrompt: Large langauge models understand and can be enhanced by emotional stimuli
 
 *Previously titled: EmotionPrompt: leveraging psychology for large language model enhancement*
 
@@ -123,7 +123,8 @@ When personalized federated learning (FL) meets large foundation models, new cha
 
 <p align="center">
 [<a href="https://arxiv.org/pdf/2307.11760.pdf">Paper</a>]
-[Media coverage <a href="https://techxplore.com/news/2023-08-exploring-effects-emotional-stimuli-large.html">1</a>,<a href="https://webappia.com/investigating-the-impact-of-emotional-stimuli-on-language-models-emotionalai/?feed_id=13302&_unique_id=64cfac8201058">2</a>,<a href="https://flowgpt.com/blog/emoGPT">3</a>,<a href="https://mp.weixin.qq.com/s/z-lg-yDibKoT_gO97HSK5Q">4</a>]
+[Media coverage <a href="https://techxplore.com/news/2023-08-exploring-effects-emotional-stimuli-large.html">1</a>, <a href="https://webappia.com/investigating-the-impact-of-emotional-stimuli-on-language-models-emotionalai/?feed_id=13302&_unique_id=64cfac8201058">2</a>, <a href="https://flowgpt.com/blog/emoGPT">3</a>, <a href="https://mp.weixin.qq.com/s/z-lg-yDibKoT_gO97HSK5Q">4</a>, <a href="https://www.godofprompt.ai/blog/getting-emotional-with-large-language-models-llms-can-increase-performance-by-115-case-study">5</a>, <a href="https://stackdiary.com/emotionprompts-ai-prompt-study/">6</a>, <a href="https://says.com/my/tech/chatgpt-emotional-intelligence">7</a>, <a href="https://www.prompthub.us/blog/getting-emotional-with-llms">8</a>, <a href="https://www.tradingview.com/news/benzinga:6720a9647094b:0-the-power-of-emotion-how-emotional-manipulation-elevates-chatgpt-s-performance/">9</a>] <br/>
+[Implementated in <a href="https://gpt-index.readthedocs.io/en/latest/examples/prompts/emotion_prompt.html">LlamaIndex</a>]
 </p>
 
 <details>
