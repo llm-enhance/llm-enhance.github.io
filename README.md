@@ -7,12 +7,53 @@
 </div>
 <br>
 
+- [The Good, The Bad, and Why: Unveiling Emotions in Generative AI](#the-good-the-bad-and-why-unveiling-emotions-in-generative-ai)
 - [Understanding and Mitigating the Label Noise in Pre-training on Downstream Tasks](#understanding-and-mitigating-the-label-noise-in-pre-training-on-downstream-tasks)
 - [ZooPFL: Exploring Black-box Foundation Models for Personalized Federated Learning](#zoopfl-exploring-black-box-foundation-models-for-personalized-federated-learning)
 - [EmotionPrompt: Large langauge models understand and can be enhanced by emotional stimuli](#emotionprompt-large-langauge-models-understand-and-can-be-enhanced-by-emotional-stimuli)
 - [Exploring Vision-Language Models for Imbalanced Learning](#exploring-vision-language-models-for-imbalanced-learning)
 - [FedCLIP: Fast Generalization and Personalization for CLIP in Federated Learning](#fedclip-fast-generalization-and-personalization-for-clip-in-federated-learning)
 
+- - -
+
+## The Good, The Bad, and Why: Unveiling Emotions in Generative AI
+
+*Added on: 19/12/2023.* EmotionPrompt V2.
+ 
+<p align="center">
+  Cheng Li<sup>1,2</sup>,
+  Jindong Wang<sup>#1</sup>, 
+  Yixuan Zhang<sup>3</sup>,  
+  Kaijie Zhu<sup>1</sup>, 
+  Xinyi Wang<sup>4</sup>, 
+  Wenxin Hou<sup>1</sup>, 
+  Jianxun Lian<sup>1</sup>,
+  Fang Luo<sup>1</sup>,
+  Qiang Yang<sup>5</sup>,
+  Xing Xie<sup>1</sup>
+</p>  
+
+<p align="center">
+<sup>1</sup> Microsoft,
+<sup>2</sup> Institute of Software, CAS,
+<sup>3</sup> William and Mary,
+<sup>4</sup> Beijing Normal University,
+<sup>5</sup> Hong Kong University of Science and Technology<br>
+(#: Corresponding author)
+</p>
+
+<p align="center">
+[<a href="https://arxiv.org/pdf/2312.11111.pdf">Paper</a>]
+</p>
+
+<details>
+<summary>Abstract</summary>
+Emotion significantly impacts our daily behaviors and interactions. While recent generative AI models, such as large language models, have shown impressive performance in various tasks, it remains unclear whether they truly comprehend emotions. This paper aims to address this gap by incorporating psychological theories to gain a holistic understanding of emotions in generative AI models. Specifically, we propose three approaches: 1) EmotionPrompt to enhance AI model performance, 2) EmotionAttack to impair AI model performance, and 3) EmotionDecode to explain the effects of emotional stimuli, both benign and malignant. Through extensive experiments involving language and multi-modal models on semantic understanding, logical reasoning, and generation tasks, we demonstrate that both textual and visual EmotionPrompt can boost the performance of AI models while EmotionAttack can hinder it. Additionally, EmotionDecode reveals that AI models can comprehend emotional stimuli akin to the mechanism of dopamine in the human brain. Our work heralds a novel avenue for exploring psychology to enhance our understanding of generative AI models. This paper is an extended version of our previous work EmotionPrompt (https://arxiv.org/abs/2307.11760).
+</details>
+
+<p align="center">
+<img src="./imgs/emotionpromptv2.png" style="width: 70%;"/>
+</p>
 
 - - -
 
