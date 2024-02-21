@@ -16,6 +16,39 @@
 
 - - -
 
+## CultureLLM: Incorporating Cultural Differences into Large Language Models
+
+*Added on: 20/02/2024.* 
+ 
+<p align="center">
+  Cheng Li<sup>1,2</sup>,
+  Mengzhuo Chen<sup>2</sup>,
+  Jindong Wang<sup>#1</sup>, 
+  Sunayana Sitaram<sup>1</sup>, 
+  Xing Xie<sup>1</sup>
+</p>  
+
+<p align="center">
+<sup>1</sup> Microsoft Research,
+<sup>2</sup> Institute of Software, CAS<br>
+(#: Corresponding author)
+</p>
+
+<p align="center">
+[<a href="https://arxiv.org/abs/2402.10946">Paper</a>]
+</p>
+
+<details>
+<summary>Abstract</summary>
+Large language models (LLMs) are reported to be partial to certain cultures owing to the training data dominance from the English corpora. Since multilingual cultural data are often expensive to collect, existing efforts handle this by prompt engineering or culture-specific pre-training. However, they might overlook the knowledge deficiency of low-resource culture and require extensive computing resources. In this paper, we propose CultureLLM, a cost-effective solution to incorporate cultural differences into LLMs. CultureLLM adopts World Value Survey (WVS) as seed data and generates semantically equivalent training data via the proposed semantic data augmentation. Using only 50 seed samples from WVS with augmented data, we fine-tune culture-specific LLMs and one unified model (CultureLLM-One) for 9 cultures covering rich and low-resource languages. Extensive experiments on 60 culture-related datasets demonstrate that CultureLLM significantly outperforms various counterparts such as GPT-3.5 (by 8.1%) and Gemini Pro (by 9.5%) with comparable performance to GPT-4 or even better. Our human study shows that the generated samples are semantically equivalent to the original samples, providing an effective solution for LLMs augmentation.
+</details>
+
+<p align="center">
+<img src="./imgs/emotionpromptv2.png" style="width: 70%;"/>
+</p>
+
+- - -
+
 ## The Good, The Bad, and Why: Unveiling Emotions in Generative AI
 
 *Added on: 19/12/2023.* EmotionPrompt V2.
