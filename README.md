@@ -7,6 +7,7 @@
 </div>
 <br>
 
+- [CultureLLM: Incorporating Cultural Differences into Large Language Models](#culturellm-incorporating-cultural-differences-into-large-language-models)
 - [The Good, The Bad, and Why: Unveiling Emotions in Generative AI](#the-good-the-bad-and-why-unveiling-emotions-in-generative-ai)
 - [Understanding and Mitigating the Label Noise in Pre-training on Downstream Tasks](#understanding-and-mitigating-the-label-noise-in-pre-training-on-downstream-tasks)
 - [ZooPFL: Exploring Black-box Foundation Models for Personalized Federated Learning](#zoopfl-exploring-black-box-foundation-models-for-personalized-federated-learning)
@@ -44,7 +45,7 @@ Large language models (LLMs) are reported to be partial to certain cultures owin
 </details>
 
 <p align="center">
-<img src="./imgs/emotionpromptv2.png" style="width: 70%;"/>
+<img src="./imgs/culturellm.png" style="width: 70%;"/>
 </p>
 
 - - -
