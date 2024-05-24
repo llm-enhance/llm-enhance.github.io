@@ -52,7 +52,7 @@ Large language models (LLMs) are reported to be partial to certain cultures owin
 
 ## The Good, The Bad, and Why: Unveiling Emotions in Generative AI
 
-*Added on: 19/12/2023.* EmotionPrompt V2.
+*Added on: 19/12/2023.* EmotionPrompt V2. *ICML 2024*.
  
 <p align="center">
   Cheng Li<sup>1,2</sup>,
